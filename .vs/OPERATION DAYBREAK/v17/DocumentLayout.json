@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "V:\\Git Repos\\OperationDaybreak\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9521B62C-5CDE-49E1-9934-7EDFA86D7866}|OPERATION DAYBREAK\\OPERATION DAYBREAK.vcxproj|V:\\Git Repos\\OperationDaybreak\\OPERATION DAYBREAK\\OPERATION DAYBREAK.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9521B62C-5CDE-49E1-9934-7EDFA86D7866}|OPERATION DAYBREAK\\OPERATION DAYBREAK.vcxproj|solutionrelative:OPERATION DAYBREAK\\OPERATION DAYBREAK.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OPERATION DAYBREAK.cpp",
+              "DocumentMoniker": "V:\\Git Repos\\OperationDaybreak\\OPERATION DAYBREAK\\OPERATION DAYBREAK.cpp",
+              "RelativeDocumentMoniker": "OPERATION DAYBREAK\\OPERATION DAYBREAK.cpp",
+              "ToolTip": "V:\\Git Repos\\OperationDaybreak\\OPERATION DAYBREAK\\OPERATION DAYBREAK.cpp",
+              "RelativeToolTip": "OPERATION DAYBREAK\\OPERATION DAYBREAK.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-30T03:50:19.687Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
