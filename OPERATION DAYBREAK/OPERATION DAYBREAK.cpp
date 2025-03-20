@@ -6,13 +6,52 @@ using namespace std;
 
 int main()
 {
+    int health = 100;
+    int strength = 100;
+    int damageOutput = 10;
+    bool hasWeapon = false;
+    
     cout << "Hello World!\n";
+    return 0;
 }
 
+void MakeDecision(char decision, int num){
+    int randNum = rand() % 3;
+
+    cout << randNum << endl;
+    cout << "A, Go Left. B, Go Straight. C, Go Right \n";
+    cout << "What Would You Like To Do? \n";
+    cin >> decision;
+    if(decision == 'A'||decision == 'a')
+    {
+        num = 1;
+        cout << "Your Decision is A";
+    }
+    else if(decision == 'B'||decision == 'b')
+    {
+        num = 2;
+        cout << "Your Decision is B";
+    }
+    else if(decision == 'C'||decision == 'c')
+    {
+        num = 3;
+        cout << "Your Decision is C";
+    }
+    if(randNum == num)
+    {
+        //make player take damage
+        cout << "Wrong Decision!\n";
+        
+    }
+    else
+    {
+        cout << "You Make It One Room Closer To Your Goal";
+    }
+}
 /*
 Make a text based zombie survival game. Add functionality of:
 
-1. surival systems: water, hunger, health, sanity
+1. survival systems: water, hunger, health, sanity
 2. Core Game Loop: give prompts to the player of a deciding path (possibly chosen from a random number of options), encounterable zombies
 2. Cont. Findable loot, survive long enough to find the high ranking official in the building you are in, or die part-way through
 3. OPTIONAL: make the game into a roguelike. Add powerup features like damage multipliers, hunger/water drain nullifications, weapon upgrades
@@ -24,7 +63,7 @@ https://www.visitoregon.com/the-oregon-trail-game-online/
 
 Ways to implement this:
 
-Have initial base stats, this can be a global constant because the base shouldnt change
+Have initial base stats, this can be a global constant because the base shouldn't change
 Have a pseudo inventory system (just number of resources the player has)
 Inventory system will have maximums of each item the player can carry (EX: MAX. 3 FOOD, MAX. 5 WATER)
 
