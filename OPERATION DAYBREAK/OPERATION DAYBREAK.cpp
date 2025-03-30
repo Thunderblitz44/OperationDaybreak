@@ -14,13 +14,12 @@ int main()
 
 	Map map;
 
-	string title = "Where do you move";
-	
-	vector<string> moves = map.MovesToString(map.GetMoveable(map.startPos));
+	Player player;
 
-	int value = Menu(title, moves, moves.size());
-
-	cout << value << endl;
+	while(true)
+	{
+		cout << player.Move(map);
+	}
 
 }
 

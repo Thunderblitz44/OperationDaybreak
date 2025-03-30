@@ -27,6 +27,18 @@ public:
     std::vector<std::string> MovesToString(int); // convert the moveable directions to a string[]
 };
 
+class Player // Josh Roberts
+{
+public:
+	int pos[2] = {0, 0}; // x, y
+	int health = 100;
+
+	Player(); // constructor
+
+    int Move(Map&); // start move
+};
+
+
 int Menu(const std::string&, const std::vector<std::string>&, int); // Josh Roberts
 
 #endif // HEADER_H
