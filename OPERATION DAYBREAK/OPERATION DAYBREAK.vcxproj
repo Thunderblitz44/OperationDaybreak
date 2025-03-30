@@ -127,11 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Map.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="OPERATION DAYBREAK.cpp" />
+    <ClCompile Include="Search.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Header.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

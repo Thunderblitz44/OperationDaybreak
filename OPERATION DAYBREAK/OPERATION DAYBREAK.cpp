@@ -3,18 +3,24 @@
 
 #include <iostream>
 #include <string>
-#include "Menu.h"
+#include <vector>
+#include "Header.h"
+
+using namespace std;
 
 int main()
 {
-	//example
-	std::string items[] = {"Left", "Forward", "Right"};
-	std::string title = "Where do you go?";
-	std::cout << items[Menu(title, items, 3)] << std::endl;
+	srand(time(0)); // Seed the random generator
 
-	//example
-	std::string items2[] = {"first", "second", "third"};
-	std::cout << items2[Menu(items2, 3)] << std::endl;
+	Map map;
+
+	string title = "Where do you move";
+	
+	vector<string> moves = map.MovesToString(map.GetMoveable(map.startPos));
+
+	int value = Menu(title, moves, moves.size());
+
+	cout << value << endl;
 
 }
 
