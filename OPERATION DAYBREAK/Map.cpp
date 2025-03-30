@@ -33,6 +33,18 @@ Map::Map() // Josh Roberts
     mapArray[rand() % 8][rand() % 8] = 2;
     mapArray[rand() % 8][rand() % 8] = 2;
 
+    mapArray[rand() % 8][rand() % 8] = 3;
+    mapArray[rand() % 8][rand() % 8] = 3;
+    mapArray[rand() % 8][rand() % 8] = 3;
+
+    mapArray[rand() % 8][rand() % 8] = 4;
+    mapArray[rand() % 8][rand() % 8] = 4;
+    mapArray[rand() % 8][rand() % 8] = 5;
+
+    mapArray[rand() % 8][rand() % 8] = 5;
+    mapArray[rand() % 8][rand() % 8] = 5;
+    mapArray[rand() % 8][rand() % 8] = 5;
+
 
 }
 
@@ -41,28 +53,28 @@ int Map::GetMoveable(int pos[2]) // Josh Roberts
 	int value = 0;
 	if(pos[0] != 0 )
 	{
-		if(mapArray[pos[0] - 1][pos[1]] == 1)
+        if(mapArray[pos[0] - 1][pos[1]] >  0)
 		{
 			value += 1;
 		}
 	}
     if(pos[1] != 0)
     {
-        if(mapArray[pos[0]][pos[1] - 1] == 1)
+        if(mapArray[pos[0]][pos[1] - 1] > 0)
         {
             value += 2;
         }
     }
     if(pos[0] != 7)
     {
-        if(mapArray[pos[0] + 1][pos[1]] == 1)
+        if(mapArray[pos[0] + 1][pos[1]] > 0)
         {
             value += 4;
         }
     }
     if(pos[1] != 7)
     {
-        if(mapArray[pos[0]][pos[1] + 1] == 1)
+        if(mapArray[pos[0]][pos[1] + 1] > 0)
         {
             value += 8;
         }
@@ -98,19 +110,19 @@ vector<string> Map::MovesToString(int value) // Josh Roberts
 void Map::DisplayMap(int pos[2]) //Josh Roberts
 {
     
-    for(int i = 7; i >= 0; i--)
+    for(int y = 0; y < 8; y++)
     {
-        for(int j = 7; j >= 0; j--)
+        for(int x = 0; x < 8; x++)
         {
-            if(i == pos[0] && j == pos[1])
+            if(x == pos[0] && y == pos[1])
             {
                 cout << " P ";  // Player
             }
-            else if(i == goalPos[0] && j == goalPos[1])
+            else if(x == goalPos[0] && y == goalPos[1])
             {
                 cout << " X ";  // Goal
             }
-            else if(mapArray[i][j] == 0)
+            else if(mapArray[x][y] == 0)
             {
                 cout << "   ";  // Wall
             }

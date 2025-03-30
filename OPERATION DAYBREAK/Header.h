@@ -19,8 +19,9 @@ public:
         {1, 1, 1, 1, 1, 1, 1, 1},
         {1, 1, 1, 1, 1, 1, 1, 1}
     };
+    
 
-	Map(); // constructor
+	Map();
 
 	int GetMoveable(int[2]); // get the moveable directions
 
@@ -28,7 +29,7 @@ public:
 
     std::vector<std::string> MovesToString(int); // convert the moveable directions to a string[]
 
-	int GetRoom(int[2]); // get the type
+	int GetRoom(int[2]);
 };
 
 class Player // Josh Roberts
@@ -36,14 +37,31 @@ class Player // Josh Roberts
 public:
 	int pos[2] = {0, 7}; // x, y
 	int health = 100;
+	bool hasMap = false;
+
+	int bullets = 0;
+	int medkits = 0;
+	bool hasGun = false;
+
+
+    int mapLog[8][8] = {
+        {1, 1, 1, 1, 1, 1, 1, 1},
+        {1, 1, 1, 1, 1, 1, 1, 1},
+        {1, 1, 1, 1, 1, 1, 1, 1},
+        {1, 1, 1, 1, 1, 1, 1, 1},
+        {1, 1, 1, 1, 1, 1, 1, 1},
+        {1, 1, 1, 1, 1, 1, 1, 1},
+        {1, 1, 1, 1, 1, 1, 1, 1},
+        {1, 1, 1, 1, 1, 1, 1, 1}
+    };
 
 	Map map;
 
-	Player(Map&); // constructor
+	Player(Map&);
     
 	void turn();
 
-    int Move(Map&); // start move
+    int Move();
 
 	
 };
