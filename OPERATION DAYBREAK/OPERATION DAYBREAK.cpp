@@ -2,10 +2,20 @@
 //
 
 #include <iostream>
+#include <string>
+#include "Menu.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	//example
+	std::string items[] = {"Left", "Forward", "Right"};
+	std::string title = "Where do you go?";
+	std::cout << items[Menu(title, items, 3)] << std::endl;
+
+	//example
+	std::string items2[] = {"first", "second", "third"};
+	std::cout << items2[Menu(items2, 3)] << std::endl;
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
