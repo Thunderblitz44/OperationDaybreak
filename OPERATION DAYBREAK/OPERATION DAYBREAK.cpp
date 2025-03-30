@@ -14,11 +14,11 @@ int main()
 
 	Map map;
 
-	Player player;
+	Player player(map);
 
 	while(true)
 	{
-		cout << player.Move(map);
+		player.turn();
 	}
 
 }

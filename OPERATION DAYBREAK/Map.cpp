@@ -20,10 +20,19 @@ Map::Map() // Josh Roberts
                 total += mapArray[i][j];
             }
         }
+
+
     }
 
 	mapArray[startPos[0]][startPos[1]] = 1;
 	mapArray[goalPos[0]][goalPos[1]] = 1;
+
+    // set 3 random rooms to have maps
+
+	mapArray[rand() % 8][rand() % 8] = 2;
+    mapArray[rand() % 8][rand() % 8] = 2;
+    mapArray[rand() % 8][rand() % 8] = 2;
+
 
 }
 
@@ -84,5 +93,39 @@ vector<string> Map::MovesToString(int value) // Josh Roberts
     }
 
     return moves;
+}
+
+void Map::DisplayMap(int pos[2]) //Josh Roberts
+{
+    
+    for(int i = 7; i >= 0; i--)
+    {
+        for(int j = 7; j >= 0; j--)
+        {
+            if(i == pos[0] && j == pos[1])
+            {
+                cout << " P ";  // Player
+            }
+            else if(i == goalPos[0] && j == goalPos[1])
+            {
+                cout << " X ";  // Goal
+            }
+            else if(mapArray[i][j] == 0)
+            {
+                cout << "   ";  // Wall
+            }
+            else
+            {
+                cout << " . ";  // Open path
+            }
+        }
+        cout << endl;
+    }
+    cout << "You Look At Your Map \n\n";
+}
+
+int Map::GetRoom(int pos[2]) // Josh Roberts
+{
+	return mapArray[pos[0]][pos[1]];
 }
 

@@ -7,8 +7,8 @@
 class Map // Josh Roberts
 {
 public:
-	int startPos[2] = {0, 0}; // x, y
-	int goalPos[2] = {6, 6}; // x, y
+	int startPos[2] = {0, 7}; // x, y
+	int goalPos[2] = {6, 1}; // x, y
 	int mapArray[8][8] = {
         {1, 1, 1, 1, 1, 1, 1, 1},
         {1, 1, 1, 1, 1, 1, 1, 1},
@@ -24,18 +24,28 @@ public:
 
 	int GetMoveable(int[2]); // get the moveable directions
 
+	void DisplayMap(int[2]); // display the map
+
     std::vector<std::string> MovesToString(int); // convert the moveable directions to a string[]
+
+	int GetRoom(int[2]); // get the type
 };
 
 class Player // Josh Roberts
 {
 public:
-	int pos[2] = {0, 0}; // x, y
+	int pos[2] = {0, 7}; // x, y
 	int health = 100;
 
-	Player(); // constructor
+	Map map;
+
+	Player(Map&); // constructor
+    
+	void turn();
 
     int Move(Map&); // start move
+
+	
 };
 
 
