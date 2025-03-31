@@ -8,7 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="974e0fec-678a-45e9-822c-4720d5072999" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/OPERATION DAYBREAK/Character.h" beforeDir="false" afterPath="$PROJECT_DIR$/OPERATION DAYBREAK/Character.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/OPERATION DAYBREAK/v17/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/OPERATION DAYBREAK/v17/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OPERATION DAYBREAK/OPERATION DAYBREAK.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/OPERATION DAYBREAK/OPERATION DAYBREAK.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,20 +34,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.RadMigrateCodeStyle": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,6 +59,7 @@
       <workItem from="1742603904855" duration="127000" />
       <workItem from="1742604230382" duration="24000" />
       <workItem from="1743383783036" duration="135000" />
+      <workItem from="1743385591157" duration="30000" />
     </task>
     <servers />
   </component>
