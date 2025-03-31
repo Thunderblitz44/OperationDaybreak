@@ -32,6 +32,8 @@ Map::Map() // Josh Roberts
 	mapArray[rand() % 8][rand() % 8] = 2;
     mapArray[rand() % 8][rand() % 8] = 2;
     mapArray[rand() % 8][rand() % 8] = 2;
+    mapArray[rand() % 8][rand() % 8] = 2;
+    mapArray[rand() % 8][rand() % 8] = 2;
 
     mapArray[rand() % 8][rand() % 8] = 3;
     mapArray[rand() % 8][rand() % 8] = 3;
@@ -39,8 +41,8 @@ Map::Map() // Josh Roberts
 
     mapArray[rand() % 8][rand() % 8] = 4;
     mapArray[rand() % 8][rand() % 8] = 4;
+
     mapArray[rand() % 8][rand() % 8] = 5;
-
     mapArray[rand() % 8][rand() % 8] = 5;
     mapArray[rand() % 8][rand() % 8] = 5;
     mapArray[rand() % 8][rand() % 8] = 5;
@@ -116,19 +118,19 @@ void Map::DisplayMap(int pos[2]) //Josh Roberts
         {
             if(x == pos[0] && y == pos[1])
             {
-                cout << " P ";  // Player
+                cout << " P ";  
             }
             else if(x == goalPos[0] && y == goalPos[1])
             {
-                cout << " X ";  // Goal
+                cout << " X ";  
             }
             else if(mapArray[x][y] == 0)
             {
-                cout << "   ";  // Wall
+                cout << "   ";  
             }
             else
             {
-                cout << " . ";  // Open path
+                cout << " . ";  
             }
         }
         cout << endl;
