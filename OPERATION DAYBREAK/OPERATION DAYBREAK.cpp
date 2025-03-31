@@ -14,37 +14,37 @@ using namespace Game;
 namespace Game {//part of the base code from https://learn.ontariotechu.ca/courses/30946/assignments/184835
 	int Character::count = 0;
 	Character::Character() {
-		cout << "Character constructor called. " << "Characters active: " << ++Character::count << "\n";
+
 	}
 	Character::~Character() {
-		cout << "Character destructor called. " << "Characters remaining: " << --Character::count << "\n";
+
 	}
 	Player1::Player1() {
-		cout << "Player constructor called\n";
+
 	}
 	void Player1::speak() const {
 		cout << "I need to find an exit\n";// == change this for character's speech == can be changed to a string variable, to allow for
 	}
 	Player1::~Player1() {
-		cout << "Player destructor called. \n";
+
 	}
 	Zombie::Zombie() {
-		cout << "Zombie constructor called\n";
+
 	}
 	void Zombie::speak() const {
 		cout << "GRRRRRRR\n";// == change this for character's speech
 	}
 	Zombie::~Zombie() {
-		cout << "Zombie destructor called \n";
+
 	}
 	Survivor::Survivor() {
-		cout << "Survivor constructor called\n";
+
 	}
 	void Survivor::speak() const {
 		cout << "I've been saved!\n";// == change this for character's speech
 	}
 	Survivor::~Survivor() {
-		cout << "Survivor destructor called \n";
+
 	}
 }
 
@@ -57,11 +57,11 @@ int main()
 	unique_ptr<Zombie> z(new Zombie());
 	unique_ptr<Survivor> s(new Survivor());
 
-	cout << endl;
-	p->speak();// use these to speak (this uses inheritence and polymorphism)
-	z->speak();
-	s->speak();
-	cout << endl;
+	//cout << endl;
+	//p->speak();// use these to speak (this uses inheritence and polymorphism)
+	//z->speak();
+	//s->speak();
+	//cout << endl;
 	
 
 
@@ -73,6 +73,8 @@ int main()
 
 	Player player(map);
 	bool play = true;
+
+	cout << "You are a soldier on a mission to find and save a traped solder in side a abandoned facility\n" << "It is your job to get them out safely. Good luck.\n\n";
 
 	while(play)
 	{

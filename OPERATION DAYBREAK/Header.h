@@ -44,6 +44,7 @@ public:
 	bool hasGun = false;
 
 
+
     int mapLog[8][8] = {
         {1, 1, 1, 1, 1, 1, 1, 1},
         {1, 1, 1, 1, 1, 1, 1, 1},

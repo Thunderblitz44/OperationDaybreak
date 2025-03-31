@@ -13,12 +13,26 @@ Player::Player(Map& mapRef) // Josh Roberts
 
 void Player::turn() //Josh Roberts
 {
+	
 	string title = "you stand in a dark room. What Do you do ? ";
 
 	vector<string> options1 = {"Search", "Open Your Bag"};
 	vector<string> options2 = {"Move", "Open Your Bag"};
 
-	vector<string> options = (mapLog[pos[0]][pos[1]] == 1) ? options1 : options2;
+	vector<string> options3 = {"Search", "Open Your Bag", "Open Map"};
+	vector<string> options4 = {"Move", "Open Your Bag", "Open Map"};
+
+	
+	vector<string> options;
+
+	if(hasMap)
+	{
+		options = (mapLog[pos[0]][pos[1]] == 1) ? options3 : options4;
+	}
+	else
+	{
+		options = (!hasMap && mapLog[pos[0]][pos[1]] == 1) ? options1 : options2;
+	}
 
 	int value = Menu(title, options, options.size());
 
@@ -31,8 +45,7 @@ void Player::turn() //Josh Roberts
 			cout << "You look around the room, you spot a desk and open search the drawers. \nWhile looking through the drawers you find something?\n\n";
 
 			hasMap = true;
-			options1.push_back("Look at Map");
-			options2.push_back("Look at Map");
+
 			cout << "You found a map!\n" << "After finding your bearings you note your position(P) and the position of your target(X) on the map.\n\n";
 			
 		}
@@ -60,7 +73,7 @@ void Player::turn() //Josh Roberts
 
 		}
 		else if (room == 6) {//Alex Bean. encounter enemy
-			cout << "You look around the room, you spot a desk and open search the drawers. \nWhile looking through the drawers you find something?\n\n";
+			cout << "You look around the room, you spot a desk and open search the drawers. \nWhile looking through the drawers something jumps at you!\n\n";
 			cout << "You encountered a zombie!\n";
 			if (hasGun && bullets > 0) {//if you have a gun and more than 0 bullets, attack the zombie
 				cout << "You shot the zombie. It dies for a second time.\n\n";
@@ -180,7 +193,6 @@ int Player::Move() // Josh Roberts
 void Player::Hurt() // Josh Roberts
 {
 	health -= 1;
-	cout << "You are attacked and lose health\n";
 
 	if(medkits > 0)
 	{
