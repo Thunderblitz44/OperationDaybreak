@@ -7,24 +7,24 @@
       "RelativeMoniker": "D:0:0:{9521B62C-5CDE-49E1-9934-7EDFA86D7866}|OPERATION DAYBREAK\\OPERATION DAYBREAK.vcxproj|solutionrelative:OPERATION DAYBREAK\\Map.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9521B62C-5CDE-49E1-9934-7EDFA86D7866}|OPERATION DAYBREAK\\OPERATION DAYBREAK.vcxproj|C:\\Users\\Belle\\Documents\\GitHub\\CG-Assignment Clone\\OperationDaybreak\\OPERATION DAYBREAK\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9521B62C-5CDE-49E1-9934-7EDFA86D7866}|OPERATION DAYBREAK\\OPERATION DAYBREAK.vcxproj|solutionrelative:OPERATION DAYBREAK\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9521B62C-5CDE-49E1-9934-7EDFA86D7866}|OPERATION DAYBREAK\\OPERATION DAYBREAK.vcxproj|C:\\Users\\Belle\\Documents\\GitHub\\CG-Assignment Clone\\OperationDaybreak\\OPERATION DAYBREAK\\OPERATION DAYBREAK.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9521B62C-5CDE-49E1-9934-7EDFA86D7866}|OPERATION DAYBREAK\\OPERATION DAYBREAK.vcxproj|solutionrelative:OPERATION DAYBREAK\\OPERATION DAYBREAK.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9521B62C-5CDE-49E1-9934-7EDFA86D7866}|OPERATION DAYBREAK\\OPERATION DAYBREAK.vcxproj|C:\\Users\\Belle\\Documents\\GitHub\\CG-Assignment Clone\\OperationDaybreak\\OPERATION DAYBREAK\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9521B62C-5CDE-49E1-9934-7EDFA86D7866}|OPERATION DAYBREAK\\OPERATION DAYBREAK.vcxproj|solutionrelative:OPERATION DAYBREAK\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9521B62C-5CDE-49E1-9934-7EDFA86D7866}|OPERATION DAYBREAK\\OPERATION DAYBREAK.vcxproj|C:\\Users\\Belle\\Documents\\GitHub\\CG-Assignment Clone\\OperationDaybreak\\OPERATION DAYBREAK\\Header.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9521B62C-5CDE-49E1-9934-7EDFA86D7866}|OPERATION DAYBREAK\\OPERATION DAYBREAK.vcxproj|solutionrelative:OPERATION DAYBREAK\\Header.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9521B62C-5CDE-49E1-9934-7EDFA86D7866}|OPERATION DAYBREAK\\OPERATION DAYBREAK.vcxproj|C:\\Users\\Belle\\Documents\\GitHub\\CG-Assignment Clone\\OperationDaybreak\\OPERATION DAYBREAK\\Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9521B62C-5CDE-49E1-9934-7EDFA86D7866}|OPERATION DAYBREAK\\OPERATION DAYBREAK.vcxproj|solutionrelative:OPERATION DAYBREAK\\Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9521B62C-5CDE-49E1-9934-7EDFA86D7866}|OPERATION DAYBREAK\\OPERATION DAYBREAK.vcxproj|C:\\Users\\Belle\\Documents\\GitHub\\CG-Assignment Clone\\OperationDaybreak\\OPERATION DAYBREAK\\Menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9521B62C-5CDE-49E1-9934-7EDFA86D7866}|OPERATION DAYBREAK\\OPERATION DAYBREAK.vcxproj|solutionrelative:OPERATION DAYBREAK\\Menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9521B62C-5CDE-49E1-9934-7EDFA86D7866}|OPERATION DAYBREAK\\OPERATION DAYBREAK.vcxproj|C:\\Users\\Belle\\Documents\\GitHub\\CG-Assignment Clone\\OperationDaybreak\\OPERATION DAYBREAK\\Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9521B62C-5CDE-49E1-9934-7EDFA86D7866}|OPERATION DAYBREAK\\OPERATION DAYBREAK.vcxproj|solutionrelative:OPERATION DAYBREAK\\Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +38,20 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "Header.h",
+              "DocumentMoniker": "C:\\Users\\Belle\\Documents\\GitHub\\CG-Assignment Clone\\OperationDaybreak\\OPERATION DAYBREAK\\Header.h",
+              "RelativeDocumentMoniker": "OPERATION DAYBREAK\\Header.h",
+              "ToolTip": "C:\\Users\\Belle\\Documents\\GitHub\\CG-Assignment Clone\\OperationDaybreak\\OPERATION DAYBREAK\\Header.h",
+              "RelativeToolTip": "OPERATION DAYBREAK\\Header.h",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAACUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-30T13:23:33.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Character.h",
               "DocumentMoniker": "C:\\Users\\Belle\\Documents\\GitHub\\CG-Assignment Clone\\OperationDaybreak\\OPERATION DAYBREAK\\Character.h",
               "RelativeDocumentMoniker": "OPERATION DAYBREAK\\Character.h",
@@ -51,28 +64,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "OPERATION DAYBREAK.cpp",
               "DocumentMoniker": "C:\\Users\\Belle\\Documents\\GitHub\\CG-Assignment Clone\\OperationDaybreak\\OPERATION DAYBREAK\\OPERATION DAYBREAK.cpp",
               "RelativeDocumentMoniker": "OPERATION DAYBREAK\\OPERATION DAYBREAK.cpp",
               "ToolTip": "C:\\Users\\Belle\\Documents\\GitHub\\CG-Assignment Clone\\OperationDaybreak\\OPERATION DAYBREAK\\OPERATION DAYBREAK.cpp",
               "RelativeToolTip": "OPERATION DAYBREAK\\OPERATION DAYBREAK.cpp",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAABEAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-30T13:25:07.849Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Header.h",
-              "DocumentMoniker": "C:\\Users\\Belle\\Documents\\GitHub\\CG-Assignment Clone\\OperationDaybreak\\OPERATION DAYBREAK\\Header.h",
-              "RelativeDocumentMoniker": "OPERATION DAYBREAK\\Header.h",
-              "ToolTip": "C:\\Users\\Belle\\Documents\\GitHub\\CG-Assignment Clone\\OperationDaybreak\\OPERATION DAYBREAK\\Header.h",
-              "RelativeToolTip": "OPERATION DAYBREAK\\Header.h",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-30T13:23:33.913Z",
               "EditorCaption": ""
             },
             {
@@ -83,27 +83,27 @@
               "RelativeDocumentMoniker": "OPERATION DAYBREAK\\Map.cpp",
               "ToolTip": "C:\\Users\\Belle\\Documents\\GitHub\\CG-Assignment Clone\\OperationDaybreak\\OPERATION DAYBREAK\\Map.cpp",
               "RelativeToolTip": "OPERATION DAYBREAK\\Map.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADMAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-30T15:13:36.028Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Player.cpp",
               "DocumentMoniker": "C:\\Users\\Belle\\Documents\\GitHub\\CG-Assignment Clone\\OperationDaybreak\\OPERATION DAYBREAK\\Player.cpp",
               "RelativeDocumentMoniker": "OPERATION DAYBREAK\\Player.cpp",
               "ToolTip": "C:\\Users\\Belle\\Documents\\GitHub\\CG-Assignment Clone\\OperationDaybreak\\OPERATION DAYBREAK\\Player.cpp",
               "RelativeToolTip": "OPERATION DAYBREAK\\Player.cpp",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEUAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAHEAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-30T17:14:47.907Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Menu.cpp",
               "DocumentMoniker": "C:\\Users\\Belle\\Documents\\GitHub\\CG-Assignment Clone\\OperationDaybreak\\OPERATION DAYBREAK\\Menu.cpp",
               "RelativeDocumentMoniker": "OPERATION DAYBREAK\\Menu.cpp",

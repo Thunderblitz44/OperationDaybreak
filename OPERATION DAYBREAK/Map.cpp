@@ -47,7 +47,9 @@ Map::Map() // Josh Roberts
     mapArray[rand() % 8][rand() % 8] = 5;
     mapArray[rand() % 8][rand() % 8] = 5;
 
-
+    mapArray[rand() % 8][rand() % 8] = 6;
+    mapArray[rand() % 8][rand() % 8] = 6;
+    mapArray[rand() % 8][rand() % 8] = 6;
 }
 
 int Map::GetMoveable(int pos[2]) // Josh Roberts

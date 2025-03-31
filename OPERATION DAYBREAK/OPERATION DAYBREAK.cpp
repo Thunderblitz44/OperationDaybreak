@@ -51,9 +51,7 @@ namespace Game {//part of the base code from https://learn.ontariotechu.ca/cours
 int main()
 {
 
-	//TODO: add enemies to map, simple combat
-	//if the player has a gun and bullet-> shoot zombie, if no gun-> take damage
-	//use hurt function
+	//TODO: add enemies to map
 
 	unique_ptr<Player1> p(new Player1());// Found using prompt in google "unique_ptr in c++" https://www.geeksforgeeks.org/unique_ptr-in-cpp/
 	unique_ptr<Zombie> z(new Zombie());
