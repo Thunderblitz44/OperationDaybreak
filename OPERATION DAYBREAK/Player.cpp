@@ -59,8 +59,19 @@ void Player::turn() //Josh Roberts
 			cout << "You found a Bullet!\n" << "You place it in your bag.\n\n";
 
 		}
-
-		else
+		else if (room == 6) {//Alex Bean. encounter enemy
+			cout << "You look around the room, you spot a desk and open search the drawers. \nWhile looking through the drawers you find something?\n\n";
+			cout << "You encountered a zombie!\n";
+			if (hasGun && bullets > 0) {//if you have a gun and more than 0 bullets, attack the zombie
+				cout << "You shot the zombie. It dies for a second time.\n\n";
+			}
+			else{
+				cout << "The zombie swipes at you. You take 1 damage\n\n";
+				Hurt();
+				cout << "Health Remaining: " << health << endl << endl;
+			}
+		}
+		else//Josh Roberts
 		{
 			cout << "You look around the room and find nothing of intrest" << endl;
 		}

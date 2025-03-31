@@ -3,6 +3,7 @@
 #include <iostream>
 using namespace std;
 
+//Alex Bean
 namespace Game {//Part of the given code from https://learn.ontariotechu.ca/courses/30946/assignments/184835
     class Character {
     public:

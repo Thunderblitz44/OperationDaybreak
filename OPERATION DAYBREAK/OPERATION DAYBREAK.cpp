@@ -10,7 +10,7 @@
 using namespace std;
 using namespace Game;
 #include <memory>
-
+//Alex Bean
 namespace Game {//part of the base code from https://learn.ontariotechu.ca/courses/30946/assignments/184835
 	int Character::count = 0;
 	Character::Character() {
@@ -46,23 +46,29 @@ namespace Game {//part of the base code from https://learn.ontariotechu.ca/cours
 	Survivor::~Survivor() {
 		cout << "Survivor destructor called \n";
 	}
-
-
 }
 
 int main()
 {
+
+	//TODO: add enemies to map, simple combat
+	//if the player has a gun and bullet-> shoot zombie, if no gun-> take damage
+	//use hurt function
+
 	unique_ptr<Player1> p(new Player1());// Found using prompt in google "unique_ptr in c++" https://www.geeksforgeeks.org/unique_ptr-in-cpp/
 	unique_ptr<Zombie> z(new Zombie());
 	unique_ptr<Survivor> s(new Survivor());
 
-	std::cout << endl;
+	cout << endl;
 	p->speak();// use these to speak (this uses inheritence and polymorphism)
 	z->speak();
 	s->speak();
-	std::cout << endl;
+	cout << endl;
+	
 
 
+
+	//Josh Roberts
 	srand(time(0)); // Seed the random generator
 
 	Map map;
@@ -75,13 +81,13 @@ int main()
 		player.turn();
 		if(player.pos[0] == map.goalPos[0] && player.pos[1] == map.goalPos[1])
 		{
-			std::cout << "You have found your target\n";
+			cout << "You have found your target\n";
 
-			std::cout << "Target: Great you made it lets get out of here\n";
+			cout << "Target: Great you made it lets get out of here\n";
 
-			std::cout << "You have completed your mission\n";
+			cout << "You have completed your mission\n";
 
-			std::cout << "Congratulations!\n";
+			cout << "Congratulations!\n";
 
 			play = false;
 		}
