@@ -65,39 +65,44 @@ int main()
 	
 
 
+	while(true)
+	{
+
 
 	//Josh Roberts
-	srand(time(0)); // Seed the random generator
+		srand(time(0)); // Seed the random generator
 
-	Map map;
+		Map map;
 
-	Player player(map);
-	bool play = true;
+		Player player(map);
+		bool play = true;
 
-	cout << "You are a soldier on a mission to find and save a traped solder in side a abandoned facility\n" << "It is your job to get them out safely. Good luck.\n\n";
+		cout << "You are a soldier on a mission to find and save a traped solder in side a abandoned facility\n" << "It is your job to get them out safely. Good luck.\n\n";
 
-	while(play)
-	{
-		player.turn();
-		if(player.pos[0] == map.goalPos[0] && player.pos[1] == map.goalPos[1])
+		while(play)
 		{
-			cout << "You have found your target\n";
+			player.turn();
+			if(player.pos[0] == map.goalPos[0] && player.pos[1] == map.goalPos[1])
+			{
+				cout << "You have found your target\n";
 
-			cout << "Target: Great you made it lets get out of here\n";
+				cout << "Target: Great you made it lets get out of here\n";
 
-			cout << "You have completed your mission\n";
+				cout << "You have completed your mission\n";
 
-			cout << "Congratulations!\n";
+				cout << "Congratulations!\n\n\n\n\n";
 
-			play = false;
-		}
 
-		if(player.health <= 0)
-		{
-			play = false;
+
+				play = false;
+			}
+
+			if(player.health <= 0)
+			{
+				play = false;
+			}
 		}
 	}
-
 }
 
 
