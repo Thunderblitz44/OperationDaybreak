@@ -36,7 +36,7 @@ class Player // Josh Roberts
 {
 public:
 	int pos[2] = {0, 7}; // x, y
-	int health = 100;
+	int health = 3;
 	bool hasMap = false;
 
 	int bullets = 0;
@@ -63,7 +63,7 @@ public:
 
     int Move();
 
-	
+    void Hurt();
 };
 
 

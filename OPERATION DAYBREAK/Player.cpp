@@ -165,3 +165,22 @@ int Player::Move() // Josh Roberts
 
 	return value;
 }
+
+void Player::Hurt() // Josh Roberts
+{
+	health -= 1;
+	cout << "You are attacked and lose health\n";
+
+	if(medkits > 0)
+	{
+		medkits -= 1;
+		health += 1;
+		cout << "You use a medkit and recover the lost health\n";
+		cout << "You now have " << medkits << " medkit(s)\n";
+	}
+	else if(health <= 0)
+	{
+		cout << "You have died\n";
+		cout << "Game Over\n";
+	}
+}
